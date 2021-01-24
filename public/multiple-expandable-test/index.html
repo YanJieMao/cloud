@@ -39,7 +39,7 @@
 
   
   
-  <title>Multiple Expandable Test | Cupper</title>
+  <title>Multiple Expandable Test | 眼睫毛的博客</title>
 </head>
 
   <body>
@@ -149,12 +149,12 @@
       <a
         class="logo"
         href="https://yanjiemao.gitee.io/cloud/"
-        aria-label="Cupper home page"
+        aria-label="眼睫毛的博客 home page"
       >
         <img src="/cloud/images/logo.svg" alt="">
       </a>
       <p class="library-desc">
-         An accessibility-friendly Hugo theme, ported from the <a href="https://github.com/ThePacielloGroup/cupper">original Cupper</a> project. 
+         眼睫毛的云计算博客 
       </p>
     </div>
     <nav id="patterns-nav" class="patterns" role="navigation">
@@ -295,7 +295,7 @@
     
     
     
-    <button aria-expanded="false" data-expands="js-expandable-e195421bdedb4cf0cf8ae5dc45d1cd7b">
+    <button aria-expanded="false" data-expands="js-expandable-cbf4a51ed1efb5cc1d97ce0bd4d5d824">
       <span class="expandable-label">expandable 1</span>
       <svg aria-hidden="true" focusable="false" viewBox="0 0 70.866142 70.866141">
         <g transform="translate(0 -981.5)">
@@ -307,7 +307,7 @@
   
     </h2>
   
-  <div id="js-expandable-e195421bdedb4cf0cf8ae5dc45d1cd7b" hidden>
+  <div id="js-expandable-cbf4a51ed1efb5cc1d97ce0bd4d5d824" hidden>
     Same inner text.
   </div>
 </div>
@@ -321,7 +321,7 @@
     
     
     
-    <button aria-expanded="false" data-expands="js-expandable-baee154f5bd5d7ccdf20eb81d94c14dc">
+    <button aria-expanded="false" data-expands="js-expandable-bd48f4bc20d1ecca545b95f1d1ed7ced">
       <span class="expandable-label">expandable 2</span>
       <svg aria-hidden="true" focusable="false" viewBox="0 0 70.866142 70.866141">
         <g transform="translate(0 -981.5)">
@@ -333,7 +333,7 @@
   
     </h2>
   
-  <div id="js-expandable-baee154f5bd5d7ccdf20eb81d94c14dc" hidden>
+  <div id="js-expandable-bd48f4bc20d1ecca545b95f1d1ed7ced" hidden>
     Same inner text.
   </div>
 </div>
@@ -347,7 +347,7 @@
     
     
     
-    <button aria-expanded="false" data-expands="js-expandable-10d12383f4c70da4a9fc269441654ee4">
+    <button aria-expanded="false" data-expands="js-expandable-adc9a944716845f3102c162fe434d04e">
       <span class="expandable-label">expandable 3</span>
       <svg aria-hidden="true" focusable="false" viewBox="0 0 70.866142 70.866141">
         <g transform="translate(0 -981.5)">
@@ -359,7 +359,7 @@
   
     </h2>
   
-  <div id="js-expandable-10d12383f4c70da4a9fc269441654ee4" hidden>
+  <div id="js-expandable-adc9a944716845f3102c162fe434d04e" hidden>
     Different inner text.
   </div>
 </div>
@@ -373,9 +373,20 @@
       
       
       
-        <p><em>Disqus comments are disabled.</em></p>
+        <div id="disqus_thread">
+        </div>
         <script type="application/javascript">
           function showComments() {
+            // Config
+var disqus_config = function () {
+};
+// Build and append comments 
+var d = document;
+var s = d.createElement('script');
+s.async = true;
+s.src = '//' + "yanjiemao" + '.disqus.com/embed.js';
+s.setAttribute('data-timestamp', + new Date());
+(d.head || d.body).appendChild(s);
             // Remove button
 var disqusButton = document.getElementById('disqus-button');
 disqusButton.parentNode.removeChild(disqusButton); 
@@ -403,7 +414,7 @@ disqusComments.style.display = 'block';
     </label>
   </div>
   
-    Made with <a href="https://gohugo.io/">Hugo</a>. Themed by <a href="https://github.com/zwbetz-gh/cupper-hugo-theme">Cupper</a>. Deployed to <a href="https://www.netlify.com/">Netlify</a>.
+    Made with <a href="https://gohugo.io/">Hugo</a>. Themed by <a href="https://github.com/zwbetz-gh/cupper-hugo-theme">Cupper</a>.
   
 </footer>
 
